@@ -402,6 +402,14 @@ if (is_siteadmin()) {
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
+    // Logo height setting.
+    $name = 'theme_essential/logoheight';
+    $title = get_string('logoheight', 'theme_essential');
+    $description = get_string('logoheightdesc', 'theme_essential');
+    $default = '65px';
+    $setting = new admin_setting_configtext($name, $title, $description, $default);
+    $temp->add($setting);
+
     // Header title setting.
     $name = 'theme_essential/headertitle';
     $title = get_string('headertitle', 'theme_essential');
