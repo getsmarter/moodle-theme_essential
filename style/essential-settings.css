@@ -335,17 +335,17 @@ input[type="reset"]:active,
 /* @end */
 /* @group Core */
 .moodle-actionmenu[data-enhanced].show .menu {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .moodle-actionmenu[data-enhanced].show .menu a {
   color: [[setting:themeurlcolor]];
 }
 .moodle-actionmenu[data-enhanced].show .menu a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: [[setting:themeurlcolor]];
 }
 .moodle-actionmenu[data-enhanced].show .menu a:hover .fa:before {
-  color: #ffffff;
+  color: #fff;
 }
 /* @end */
 /* @group Course */
@@ -587,26 +587,26 @@ input[type="color"],
   color: [[setting:themeurlcolor]];
 }
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li > a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: [[setting:themeurlcolor]];
 }
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li > a:focus,
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li > a.open {
-  color: #ffffff;
+  color: #fff;
   background-color: [[setting:themeurlcolor]];
 }
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li > a:focus i,
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li > a.open i {
-  color: #ffffff;
+  color: #fff;
 }
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li > a:hover .dimmed_text {
-  color: #eeeeee;
+  color: #eee;
 }
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li > a i {
   color: [[setting:themeiconcolor]];
 }
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li.dropdown-submenu:hover > a {
-  color: #ffffff;
+  color: #fff;
   background-color: [[setting:themeurlcolor]];
 }
 .navbar .navbar-inner .nav > li.dropdown ul.dropdown-menu > li.dropdown-submenu:hover > a i {
@@ -615,7 +615,7 @@ input[type="color"],
 .navbar .navbar-inner .nav li.dropdown.open > .dropdown-toggle,
 .navbar .navbar-inner .nav li.dropdown.active > .dropdown-toggle,
 .navbar .navbar-inner .nav li.dropdown.open.active > .dropdown-toggle {
-  color: #ffffff;
+  color: #fff;
   background-color: [[setting:themehovercolor]];
 }
 .navbar .navbar-inner .nav li.dropdown.open > .dropdown-toggle i,
@@ -640,7 +640,7 @@ input[type="color"],
 }
 .navbar .navbar-inner .messagemenu ul.nav ul.dropdown-menu li > a:hover .message,
 .navbar .navbar-inner .messagemenu ul.nav ul.dropdown-menu li > a:hover .notification {
-  color: #ffffff;
+  color: #fff;
   background-color: [[setting:themehovercolor]];
 }
 .navbar .navbar-inner .messagemenu ul.nav ul.dropdown-menu li > a:hover .message img.userpicture,
@@ -745,8 +745,9 @@ img.profilepicture {
 #page-header {
   background: url('[[setting:headerbackground]]') repeat;
 }
-a.logo {
+#page-header a.logo {
   background-image: [[setting:logo]];
+  height: [[setting:logoheight]];
 }
 h1#title {
   color: [[setting:themetextcolor]];
