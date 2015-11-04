@@ -132,6 +132,15 @@ if (is_siteadmin()) {
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
+    // Custom scrollbars.
+    $name = 'theme_essential/customscrollbars';
+    $title = get_string('customscrollbars', 'theme_essential');
+    $description = get_string('customscrollbarsdesc', 'theme_essential');
+    $default = true;
+    $setting = new admin_setting_configcheckbox($name, $title, $description, $default, true, false);
+    $setting->set_updatedcallback('theme_reset_all_caches');
+    $temp->add($setting);
+
     // Custom CSS file.
     $name = 'theme_essential/customcss';
     $title = get_string('customcss', 'theme_essential');

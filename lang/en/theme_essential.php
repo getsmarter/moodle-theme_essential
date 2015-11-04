@@ -159,6 +159,9 @@ $string['fitvidsdesc'] = 'Enable FitVids (fitvidsjs.com) to make your embedded v
 $string['favicon'] = 'Custom favicon';
 $string['favicondesc'] = 'Upload your own favicon. It should be a .ico file but other file types also work in some browsers.';
 
+$string['customscrollbars'] = 'Custom scrollbars';
+$string['customscrollbarsdesc'] = 'Use custom scrollbars. This will replace the standard browser scrollbars.';
+
 // Custom Menu.
 $string['mycoursesinfo'] = 'Enrolled courses menu';
 $string['mycoursesinfodesc'] = 'Displays a dynamic list of enrolled courses to the user.';
